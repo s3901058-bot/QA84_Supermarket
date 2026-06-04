@@ -71,6 +71,7 @@ public class MainSupermarket {
         lidl.printProducts();
 
         // END HomeWork#14
+
     }
 }
 
