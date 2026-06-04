@@ -58,7 +58,7 @@ public class MainSupermarket {
 
    // HomeWork#14
 
-        lidl.findCode(122);
+        lidl.findCode(111);
         lidl.printProducts();
 
         lidl.removeProductFromStock(111);
@@ -67,7 +67,7 @@ public class MainSupermarket {
         lidl.totalCost();
         lidl.printProducts();
 
-        lidl.reducePriceALL(50);
+        lidl.reducePriceALL(99.9);//Распрадажа перед закрытием 99.9 % Скидка )_)))
         lidl.printProducts();
 
         // END HomeWork#14
