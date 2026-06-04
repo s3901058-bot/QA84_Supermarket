@@ -49,12 +49,14 @@ public class MainSupermarket {
         lidl.printProducts();
         lidl.sortProductsBy(ISortingCriteria.SORT_BY_UNIT);
         lidl.printProducts();
+        lidl.sortProductsBy(ISortingCriteria.SORT_BY_UNIT_REVERS);
+        lidl.printProducts();
         lidl.sortProductsBy(ISortingCriteria.SORT_BY_CODE_REVERS);
         lidl.printProducts();
         lidl.sortProductsBy(ISortingCriteria.SORT_BY_CODE);
         lidl.printProducts();
-        lidl.sortProductsBy(ISortingCriteria.SORT_BY_CODE_REVERS);
-        lidl.printProducts();
+
+
 
    // HomeWork#14
 
