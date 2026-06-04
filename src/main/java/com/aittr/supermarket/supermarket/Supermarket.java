@@ -154,10 +154,10 @@ public void removeProductFromStock (int code ){
         for(Product pr: stock){
             if(pr.getCode() == code){
                 stock.remove(pr);
-                stock.sort(null);
-                break;
+                  break;
             }
         }
+    System.out.println("Remove Product from Stock");
 
 }
 
@@ -165,7 +165,7 @@ public void removeProductFromStock (int code ){
     public double totalCost(){
                double total = 0;
         for(Product pr: stock){
-            total += pr.getPrice()*pr.getQuantity();        }
+               total += pr.getPrice()*pr.getQuantity();        } //  total=total+(pr.getPrice()*pr.getQuantity());
         System.out.println("TOTAL COST: "+total);
         return total;
 
